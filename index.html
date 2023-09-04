@@ -48,6 +48,10 @@
         })();"
     </pre> </h2>
     <h3><p>1</p><p>0</p></h3>
+    <h3>the first count variable initialised as 0 and after that the if-statement checks for the condition i.e takes the first count variable 
+        its true , then it moving to the next and find that there is another variable with same name but the memory is different as there scope are different.
+        then it will print 1 and after that 0 from global console and global count variable.
+    </h3>
     <hr>
     <h2>Q3. <pre>
         "for (var i = 0; i < 3; i++) {
@@ -102,6 +106,8 @@
         })();"
     </pre></h2>
     <h3>Alert: 12</h3>
+    <h3>Since there is no any variable a is present in the function scope therefore it will check to the parent / global scope and 
+        it will found variable then print the value in the alert box.</h3>
     <hr>
     <h2>Q7. <pre>
         "var a = 10;
@@ -115,6 +121,8 @@
     </pre></h2>
     <hr>
     <h3>Output : Alert 12</h3>
+    <h3>Since there is no any variable a is present in the inner function scope therefore it will check to the parent function scope and 
+        it will found variable a then print the value in the alert box.</h3>
     <h2>Q8. <pre>
         "var globalVar = ""xyz"";
         (function outerFunc(outerArg) {

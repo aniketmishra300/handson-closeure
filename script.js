@@ -78,10 +78,10 @@ var globalVar = "xyz";
     var innerVar = 'b'; 
     console.log(
         "outerArg = " + outerArg + "\n" + //123
-        "innerArg = " + innerArg + "\n" + //
-        "outerVar = " + outerVar + "\n" +
-        "innerVar = " + innerVar + "\n" +
-        "globalVar = " + globalVar);
+        "innerArg = " + innerArg + "\n" + //456
+        "outerVar = " + outerVar + "\n" + //a
+        "innerVar = " + innerVar + "\n" + //b
+        "globalVar = " + globalVar); // xyz
     
     })(456);
 })(123);
